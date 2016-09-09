@@ -1,0 +1,140 @@
+{
+  "users": {
+    "user-1-data": {
+      "user_name": "Francisco Barrios",
+      "user_email": "fbarrios80@gmail.com",
+      "card": [
+        {
+          "card_id": "1",
+          "card_name": "business card",
+          "card_metadata": {
+            "card_background_color": "#F1F1F1",
+            "card_foreground_color": "#313131",
+            "card_color_1": "#313131",
+            "card_color_2": "#313131",
+            "card_color_3": "#313131",
+            "card_color_4": "#313131",
+            "card_main_text": "lalalalala",
+            "card_sub_text": "sub alalalala",
+            "card_phone": "+56961499453",
+            "card_address": "sub alalalala",
+            "card_emil": "francisco.barrios@zecovery.com",
+            "card_web": "http://www.zecovery.com",
+            "card_logo": "http://graphicdesignjunction.com/wp-content/uploads/2014/06/004+business+card+templates.jpg",
+            "card_background_image": "http://graphicdesignjunction.com/wp-content/uploads/2014/06/004+business+card+templates.jpg",
+            "card_profile_picture": "http://graphicdesignjunction.com/wp-content/uploads/2014/06/004+business+card+templates.jpg",
+            "card_url_linkedin": "",
+            "card_url_pinterest": "",
+            "card_url_twitter": "",
+            "card_url_facebook": "",
+            "card_url_dribbble": "",
+            "card_url_behance": "",
+            "card_url_instagram": "",
+            "card_url_vimeo": "",
+            "card_url_youtube": "",
+            "card_url_custom": ""
+          }
+        },
+        {
+          "card_id": "2",
+          "card_name": "business card",
+          "card_metadata": {
+            "card_background_color": "#F1F1F1",
+            "card_foreground_color": "#313131",
+            "card_color_1": "#313131",
+            "card_color_2": "#313131",
+            "card_color_3": "#313131",
+            "card_color_4": "#313131",
+            "card_main_text": "lalalalala",
+            "card_sub_text": "sub alalalala",
+            "card_phone": "+56961499453",
+            "card_address": "sub alalalala",
+            "card_emil": "francisco.barrios@zecovery.com",
+            "card_web": "http://www.zecovery.com",
+            "card_logo": "http://graphicdesignjunction.com/wp-content/uploads/2014/06/004+business+card+templates.jpg",
+            "card_background_image": "http://graphicdesignjunction.com/wp-content/uploads/2014/06/004+business+card+templates.jpg",
+            "card_profile_picture": "http://graphicdesignjunction.com/wp-content/uploads/2014/06/004+business+card+templates.jpg",
+            "card_url_linkedin": "",
+            "card_url_pinterest": "",
+            "card_url_twitter": "",
+            "card_url_facebook": "",
+            "card_url_dribbble": "",
+            "card_url_behance": "",
+            "card_url_instagram": "",
+            "card_url_vimeo": "",
+            "card_url_youtube": "",
+            "card_url_custom": ""
+          }
+        }
+      ]
+    },
+    "user-2-data": {
+      "user_name": "Francisco Barrios",
+      "user_email": "fbarrios80@gmail.com",
+      "card": [
+        {
+          "card_id": "1",
+          "card_name": "business card",
+          "card_metadata": {
+            "card_background_color": "#F1F1F1",
+            "card_foreground_color": "#313131",
+            "card_color_1": "#313131",
+            "card_color_2": "#313131",
+            "card_color_3": "#313131",
+            "card_color_4": "#313131",
+            "card_main_text": "lalalalala",
+            "card_sub_text": "sub alalalala",
+            "card_phone": "+56961499453",
+            "card_address": "sub alalalala",
+            "card_emil": "francisco.barrios@zecovery.com",
+            "card_web": "http://www.zecovery.com",
+            "card_logo": "http://graphicdesignjunction.com/wp-content/uploads/2014/06/004+business+card+templates.jpg",
+            "card_background_image": "http://graphicdesignjunction.com/wp-content/uploads/2014/06/004+business+card+templates.jpg",
+            "card_profile_picture": "http://graphicdesignjunction.com/wp-content/uploads/2014/06/004+business+card+templates.jpg",
+            "card_url_linkedin": "",
+            "card_url_pinterest": "",
+            "card_url_twitter": "",
+            "card_url_facebook": "",
+            "card_url_dribbble": "",
+            "card_url_behance": "",
+            "card_url_instagram": "",
+            "card_url_vimeo": "",
+            "card_url_youtube": "",
+            "card_url_custom": ""
+          }
+        },
+        {
+          "card_id": "2",
+          "card_name": "business card",
+          "card_metadata": {
+            "card_background_color": "#F1F1F1",
+            "card_foreground_color": "#313131",
+            "card_color_1": "#313131",
+            "card_color_2": "#313131",
+            "card_color_3": "#313131",
+            "card_color_4": "#313131",
+            "card_main_text": "lalalalala",
+            "card_sub_text": "sub alalalala",
+            "card_phone": "+56961499453",
+            "card_address": "sub alalalala",
+            "card_emil": "francisco.barrios@zecovery.com",
+            "card_web": "http://www.zecovery.com",
+            "card_logo": "http://graphicdesignjunction.com/wp-content/uploads/2014/06/004+business+card+templates.jpg",
+            "card_background_image": "http://graphicdesignjunction.com/wp-content/uploads/2014/06/004+business+card+templates.jpg",
+            "card_profile_picture": "http://graphicdesignjunction.com/wp-content/uploads/2014/06/004+business+card+templates.jpg",
+            "card_url_linkedin": "",
+            "card_url_pinterest": "",
+            "card_url_twitter": "",
+            "card_url_facebook": "",
+            "card_url_dribbble": "",
+            "card_url_behance": "",
+            "card_url_instagram": "",
+            "card_url_vimeo": "",
+            "card_url_youtube": "",
+            "card_url_custom": ""
+          }
+        }
+      ]
+    }
+  }
+}
