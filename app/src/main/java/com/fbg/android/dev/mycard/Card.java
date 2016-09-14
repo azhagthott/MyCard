@@ -14,6 +14,7 @@ public class Card extends User {
     private String mainText;
     private String subText;
     private String phone;
+    private String email;
     private String web;
     private String profilePicture;
     private String logo;
@@ -35,15 +36,13 @@ public class Card extends User {
     private String urlInstagram;
     private String urlCustom;
 
-    public Card() {
-    }
-
-    public Card(int id, String name, String mainText, String subText, String phone, String web, String profilePicture, String logo, String backgroundImage, String backgroundColor, String foregroundColor, String color1, String color2, String color3, String color4, String urlPinterest, String urlLinkedin, String urlDribbble, String urlBehance, String urlTwitter, String urlFacebook, String urlInstagram, String urlCustom) {
+    public Card(int id, String name, String mainText, String subText, String phone, String email, String web, String profilePicture, String logo, String backgroundImage, String backgroundColor, String foregroundColor, String color1, String color2, String color3, String color4, String urlPinterest, String urlLinkedin, String urlDribbble, String urlBehance, String urlTwitter, String urlFacebook, String urlInstagram, String urlCustom) {
         this.id = id;
         this.name = name;
         this.mainText = mainText;
         this.subText = subText;
         this.phone = phone;
+        this.email = email;
         this.web = web;
         this.profilePicture = profilePicture;
         this.logo = logo;
@@ -106,6 +105,16 @@ public class Card extends User {
 
     public void setPhone(String phone) {
         this.phone = phone;
+    }
+
+    @Override
+    public String getEmail() {
+        return email;
+    }
+
+    @Override
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     public String getWeb() {

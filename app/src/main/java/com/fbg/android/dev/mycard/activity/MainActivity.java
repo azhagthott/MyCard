@@ -1,22 +1,29 @@
-package com.fbg.android.dev.mycard;
+package com.fbg.android.dev.mycard.activity;
 
-import android.app.ActivityOptions;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.CardView;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.TextView;
+
+import com.fbg.android.dev.mycard.Card;
+import com.fbg.android.dev.mycard.R;
+import com.fbg.android.dev.mycard.adapter.MyCardViewAdapter;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    private TextView mainText;
-    private CardView cardView;
+    private MyCardViewAdapter adapter;
+    private RecyclerView cardList;
+    private RecyclerView.LayoutManager layoutManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,20 +32,37 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        mainText = (TextView) findViewById(R.id.mainText);
-        mainText.setOnClickListener(this);
+        cardList = (RecyclerView) findViewById(R.id.cardList);
+        cardList.setHasFixedSize(true);
 
-        cardView = (CardView) findViewById(R.id.cardView);
-        cardView.setOnClickListener(this);
+        layoutManager = new LinearLayoutManager(this);
+
+        cardList.setLayoutManager(layoutManager);
+
+        cardList.setAdapter(new MyCardViewAdapter(myCards()));
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
+                startActivity(new Intent(MainActivity.this, CardSelectorActivity.class));
+
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
+    }
+
+    private List<Card> myCards() {
+
+        List<Card> list = new ArrayList<>();
+
+        list.add(0, new Card(1, "tarjeta 1", "Francisco Barrios G.",
+                "Android Developer", "+56 2 25223830", "francisco.barrios@zecovery.com", "www.zecovery.com",
+                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null));
+
+        return list;
     }
 
     @Override
@@ -65,20 +89,5 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View view) {
-        switch (view.getId()) {
-            case R.id.mainText:
-                break;
-            case R.id.cardView:
-
-                View sharedView = cardView;
-                String transitionName = getString(R.string.transition_name);
-
-                Intent i = new Intent(MainActivity.this, CardDetailActivity.class);
-
-                ActivityOptions transitionActivityOptions = ActivityOptions.makeSceneTransitionAnimation(MainActivity.this, sharedView, transitionName);
-                startActivity(i, transitionActivityOptions.toBundle());
-
-
-        }
     }
 }

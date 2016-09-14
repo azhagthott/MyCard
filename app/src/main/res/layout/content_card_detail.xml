@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.fbg.android.dev.mycard.CardDetailActivity"
+    tools:context="com.fbg.android.dev.mycard.activity.CardDetailActivity"
     tools:showIn="@layout/activity_card_detail">
 
     <TextView

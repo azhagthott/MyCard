@@ -5,6 +5,21 @@
 
     <string name="transition_name">t1</string>
 
+    <!-- dummy text -->
+    <string name="dummy_main_text">Francisco Barrios</string>
+    <string name="dummy_sub_text">Android Developer</string>
+    <string name="dummy_email">francisco.barrios@zecovery.com</string>
+    <string name="dummy_web">wwww.zecovery.com</string>
+
+    <string name="dummy_linkedin">Linkedin</string>
+    <string name="dummy_pinterest">Pinterest</string>
+    <string name="dummy_instagram">Instagram</string>
+    <string name="dummy_twitter">Twitter</string>
+    <string name="dummy_facebook">Facebook</string>
+    <string name="dummy_dribbble">Dribbble</string>
+    <string name="dummy_behance">Dehance</string>
+    <string name="dummy_custom">Custom</string>
+
     <string name="large_text">
         "Material is the metaphor.\n\n"
 
@@ -94,4 +109,6 @@
         "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
         "when a user tries to pick up one of cards.\n\n"
     </string>
+    <string name="title_activity_card_selector">Selector</string>
+    <string name="section_format">Hello World from section: %1$d</string>
 </resources>
