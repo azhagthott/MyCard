@@ -19,7 +19,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activity.CardDetailActivity"
+            android:name=".activity.CardEditModeActivity"
             android:label="@string/title_activity_card_detail"
             android:parentActivityName=".activity.MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
@@ -30,6 +30,15 @@
         <activity
             android:name=".activity.CardSelectorActivity"
             android:label="@string/title_activity_card_selector"
+            android:parentActivityName=".activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.fbg.android.dev.mycard.activity.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activity.CardDetailedActivity"
+            android:label="@string/title_activity_card_detailed"
             android:parentActivityName=".activity.MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data

@@ -5,7 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.fbg.android.dev.mycard.Card;
+import com.fbg.android.dev.mycard.base.Card;
 import com.fbg.android.dev.mycard.R;
 
 import java.util.ArrayList;
@@ -26,7 +26,7 @@ public class MyCardViewAdapter extends RecyclerView.Adapter<MyCardViewHolder> {
 
     @Override
     public MyCardViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.card, parent, false);
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.card_front, parent, false);
         return new MyCardViewHolder(view);
     }
 

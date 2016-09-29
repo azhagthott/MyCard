@@ -12,7 +12,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-import com.fbg.android.dev.mycard.Card;
+import com.fbg.android.dev.mycard.base.Card;
 import com.fbg.android.dev.mycard.R;
 import com.fbg.android.dev.mycard.adapter.MyCardViewAdapter;
 

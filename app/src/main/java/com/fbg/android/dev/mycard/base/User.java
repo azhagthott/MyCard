@@ -1,4 +1,4 @@
-package com.fbg.android.dev.mycard;
+package com.fbg.android.dev.mycard.base;
 
 /**
  * Created by fran on 08-09-16.

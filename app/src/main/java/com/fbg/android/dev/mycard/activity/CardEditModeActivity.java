@@ -9,12 +9,12 @@ import android.view.View;
 
 import com.fbg.android.dev.mycard.R;
 
-public class CardDetailActivity extends AppCompatActivity {
+public class CardEditModeActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_card_detail);
+        setContentView(R.layout.activity_card_edit_mode);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 

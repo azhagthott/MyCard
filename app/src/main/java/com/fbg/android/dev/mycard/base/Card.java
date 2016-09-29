@@ -1,4 +1,4 @@
-package com.fbg.android.dev.mycard;
+package com.fbg.android.dev.mycard.base;
 
 /**
  * Created by fran on 08-09-16.
@@ -6,11 +6,11 @@ package com.fbg.android.dev.mycard;
 
 public class Card extends User {
 
-    // card info
+    // card_front info
     private int id;
     private String name;
 
-    // card design
+    // card_front design
     private String mainText;
     private String subText;
     private String phone;
